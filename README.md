@@ -41,17 +41,17 @@ contraseña 984198
 
 ## 📸 Capturas del Sistema
 ### Login
-![Login]()
+![Login](./capturas/login.png)
 ### Inicio
-![Homepage](./src/assets/screenshots/homepage.png)
-### Catálogo de Mujeres
-![Mujerespage](./src/assets/screenshots/mujerespage.png)
-### Detalle de Producto
-![Detallepage](./src/assets/screenshots/detallepage.png)
-### Carrito de compras
-![Carritopage](./src/assets/screenshots/carritopage.png)
-### Checkout
-![Checkout](./src/assets/screenshots/checkoutpage.png)
-### Busquedas
-![Busquedapage](./src/assets/screenshots/busquedapage.png)
+![Inicio](./capturas/inicio.png)
+### Mantenimiento de Pacientes
+![MantPacientes](./capturas/mantpacientes.png)
+### Registro de internamientos
+![RegisInterna](./capturas/registrointerna.png)
+### Consulta de internamientos
+![ConsulInterna](./capturas/consulinterna.png)
+### Consulta de Pacientes
+![ConsulPacientes](./capturas/consulpacientes.png)
+### Reporte de Pacientes internados por tratamiento
+![pacientesinternaxtratamiento](./capturas/pacientesinternaxtratamiento.png)
 
