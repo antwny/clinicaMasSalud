@@ -2,37 +2,20 @@
 
 ### Sistema de Registro e Internamiento de Pacientes
 
-Proyecto académico desarrollado en **Java** como parte del curso **Algoritmos y Estructura de Datos** (CIBERTEC – 2025).
-El sistema permite **registrar, internar, tratar y dar de alta a pacientes** de una clínica, automatizando procesos que antes se realizaban manualmente.
+Proyecto académico desarrollado en **Java** (CIBERTEC – 2025) para automatizar la gestión clínica y digitalizar procesos de registro, internamiento, tratamiento y alta médica.
 
-## 📋 Descripción del Proyecto
+## 🚀 Características Principales
 
-El sistema **Clínica +Salud** fue diseñado para optimizar la gestión clínica de una institución de salud de tamaño mediano.
-Permite registrar pacientes, gestionar internamientos, registrar tratamientos y emitir altas médicas, todo mediante una interfaz gráfica construida con **Java Swing** y almacenamiento de datos en **archivos de texto (.txt)**.
-
-Este proyecto aplica los principios de:
-
-* Programación Orientada a Objetos (POO)
-* Manejo de estructuras de datos (ArrayList)
-* Persistencia de información mediante archivos secuenciales
-
-Su propósito es **digitalizar la gestión clínica**, reduciendo errores, mejorando la trazabilidad de los pacientes y facilitando la generación de reportes administrativos y médicos.
-
-## 🧠 Objetivos Principales
-
-1. **Automatizar el registro e internamiento de pacientes**, reemplazando los registros manuales por un sistema digital.
-2. **Optimizar la gestión de tratamientos clínicos**, asociando automáticamente tratamientos con pacientes internados.
-3. **Garantizar la seguridad y persistencia** de la información mediante almacenamiento local en archivos `.txt`.
-4. **Mejorar la eficiencia operativa** del personal administrativo mediante una interfaz intuitiva.
-5. **Facilitar la toma de decisiones clínicas** con reportes automáticos de internamientos, altas y tratamientos.
-
-## 🧩 Módulos del Sistema
-
-* **Mantenimiento de Pacientes:** registro, edición y eliminación de datos personales.
-* **Registro de Internamientos:** administración de ingresos y asignación de tratamientos.
-* **Mantenimiento de Tratamientos:** registro de sesiones, costos y duración.
-* **Altas Médicas:** gestión de la salida del paciente.
-* **Reportes:** consultas de internamientos vigentes, altas y tratamientos activos.
+* 🧾 **Registro de pacientes** con datos personales y clínicos.
+* 🏥 **Internamiento de pacientes** con asignación de tratamientos y control de estado.
+* 💊 **Gestión de tratamientos**: duración, sesiones y costos.
+* ✅ **Altas médicas** automáticas con actualización del historial del paciente.
+* 📊 **Reportes y consultas**: pacientes internados, dados de alta o por tratamiento.
+* 💾 **Persistencia de datos** mediante archivos `.txt`.
+* 🧠 **Estructuras de datos** (ArrayList) para almacenamiento dinámico.
+* 🖥️ **Interfaz gráfica** intuitiva desarrollada con **Java Swing**.
+* 🔒 **Integridad de información** con validaciones y respaldo local.
+* 📈 **Optimización de tiempos administrativos** reduciendo errores y duplicidades.
 
 ## 📦 Instalación
 
