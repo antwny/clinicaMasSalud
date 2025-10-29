@@ -13,6 +13,9 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import javax.swing.Timer;
 import com.formdev.flatlaf.FlatLightLaf;
+
+import clases.Calendario;
+
 import javax.swing.UIManager;
 
 
@@ -237,8 +240,6 @@ public class LoginAcceso extends JFrame  {
     
     //metodo de Actualizar hora
     public void actualizarHora() {
-        Date hora = new Date();
-        SimpleDateFormat formatoHora = new SimpleDateFormat("HH:mm:ss");
-        lblHora.setText(formatoHora.format(hora));
+        lblHora.setText(Calendario.horaActual());
     }
 }

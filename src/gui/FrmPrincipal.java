@@ -8,6 +8,9 @@ import javax.swing.Timer;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import com.formdev.flatlaf.FlatLightLaf;
+
+import clases.Calendario;
+
 import javax.swing.UIManager;
 
 public class FrmPrincipal extends JFrame implements ActionListener {
@@ -166,10 +169,8 @@ public class FrmPrincipal extends JFrame implements ActionListener {
     }
 
     private void actualizarFechaHora() {
-        Date ahora = new Date();
-        SimpleDateFormat formatoFecha = new SimpleDateFormat("dd/MM/yyyy");
-        SimpleDateFormat formatoHora = new SimpleDateFormat("HH:mm:ss");
-        lblFe.setText("Fecha: " + formatoFecha.format(ahora));
-        lblHor.setText(formatoHora.format(ahora));
+        
+        lblFe.setText("Fecha : "+Calendario.fechaActual());
+        lblHor.setText(Calendario.horaActual());
     }
 }
